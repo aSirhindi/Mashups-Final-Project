@@ -1,0 +1,22 @@
+{
+  "name": "black-jack",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.5.2",
+    "ejs": "*",
+    "express": "4.x",
+    "serve-favicon": "^2.2.0",
+    "request": "^2.47.0",
+    "socket.io": "^1.2.1",
+    "underscore": "^1.7.0",
+    "morgan": "~1.0.0",
+    "node-of-cards":"*"
+  }
+}
